@@ -66,7 +66,7 @@ local function zharkLicensePrompt()
 
     local title = Instance.new("TextLabel")
     title.Size = UDim2.new(1, -20, 0, 38); title.Position = UDim2.fromOffset(10, 8)
-    title.BackgroundTransparency = 1; title.Text = "ZHARK LICENSE"
+    title.BackgroundTransparency = 1; title.Text = "ZHARK HUB PRIVATE"
     title.TextColor3 = Color3.fromRGB(190, 135, 255); title.Font = Enum.Font.GothamBold
     title.TextSize = 20; title.Parent = frame
 
@@ -13494,7 +13494,7 @@ _G._jafHudHeartbeat:Disconnect() end); _G._jafHudHeartbeat = nil end
         if Config.PanelScales then Config.PanelScales["JustAFanStatusHUD"] = nil end
         local _splitX = 322
         local hubName = JUI.new("TextLabel", main, "Size", UDim2.new(0, _splitX, 0, 25), "Position", UDim2.new(0, 0, 0, 3), "BackgroundTransparency", 1, "Text", "Zhark Hub Private", "Font", Enum.Font.GothamBold, "TextSize", 22, "TextColor3", Theme.Accent1, "TextXAlignment", Enum.TextXAlignment.Center)
-        local hubOwner = JUI.new("TextLabel", main, "Size", UDim2.new(0, _splitX, 0, 16), "Position", UDim2.new(0, 0, 0, 26), "BackgroundTransparency", 1, "Text", "@pumpkinjustlarping", "Font", Enum.Font.GothamMedium, "TextSize", 14)
+        local hubOwner = JUI.new("TextLabel", main, "Size", UDim2.new(0, _splitX, 0, 16), "Position", UDim2.new(0, 0, 0, 26), "BackgroundTransparency", 1, "Text", "@zharkbs2", "Font", Enum.Font.GothamMedium, "TextSize", 14)
         hubOwner.TextColor3 = Color3.fromRGB(255, 255, 255)
         hubOwner.TextXAlignment = Enum.TextXAlignment.Center
         local div = JUI.new("Frame", main, "Size", UDim2.new(0, 1, 0, 30), "Position", UDim2.new(0, _splitX, 0.5, -15), "BackgroundColor3", Theme.Accent1, "BackgroundTransparency", 0.45, "BorderSizePixel", 0)
